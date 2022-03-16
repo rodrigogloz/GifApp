@@ -6,7 +6,7 @@ export const GifGrid = ({ category }) => {
   const { data: images, loading } = useFetchGifs(category);
 
   return (
-    <>
+    <div className="category-container">
       <h3 className="category-name animate__animated animate__fadeIn">
         {category}
       </h3>
@@ -18,6 +18,6 @@ export const GifGrid = ({ category }) => {
           <GifGridItem key={img.id} {...img} />
         ))}
       </div>
-    </>
+    </div>
   );
 };
