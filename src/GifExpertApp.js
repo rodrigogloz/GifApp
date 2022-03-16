@@ -8,9 +8,9 @@ const GifExpertApp = () => {
   return (
     <div className="app-container">
       <header className="app-header">
-        <h2>GifExpertApp</h2>
+        <h2 className="header-title">GifExpertApp</h2>
         <AddCategory setCategories={setCategories} />
-        <hr className="header-hr" />
+        {/* <hr className="header-hr" /> */}
       </header>
       <ol className="results-list">
         {categories.map((category) => (
@@ -18,7 +18,6 @@ const GifExpertApp = () => {
         ))}
       </ol>
       <footer className="app-footer">
-        <hr />
         <div className="app-footer-content"></div>
       </footer>
     </div>

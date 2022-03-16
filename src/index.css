@@ -1,4 +1,15 @@
+/* #root {
+  --light-color: white;
+  --primary-color: rgb(169, 169, 169);
+  --secondary-color: gray;
+  --container-color: lightgrey;
+} */
+
 #root {
+  --light-color: white;
+  --primary-color: rgb(169, 169, 169);
+  --secondary-color: gray;
+  --container-color: lightgrey;
 }
 
 * {
@@ -6,7 +17,8 @@
 }
 
 body {
-  padding: 40px 60px;
+  background-color: var(--light-color);
+  margin: 0 auto;
 }
 
 ::-webkit-scrollbar {
@@ -20,13 +32,13 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: darkgrey;
+  background-color: var(--primary-color);
   border-radius: 50px;
-  outline: 1px solid slategrey;
+  outline: 1px solid var(--secondary-color);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: rgb(121, 121, 121);
+  background-color: var(--secondary-color);
 }
 
 .app-container {
@@ -38,9 +50,15 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  padding-top: 50px;
+  padding-top: 20px;
+  padding-left: 18px;
   z-index: 1;
-  background-color: white;
+  background-color: var(--secondary-color);
+}
+
+.header-title {
+  color: var(--primary-color);
+  margin: 30px 40px;
 }
 
 input {
@@ -48,38 +66,38 @@ input {
   color: black;
   font-size: 16px;
   max-width: 370px;
-  outline: auto lightgray;
+  outline: auto var(--primary-color);
   padding: 3px;
   width: 100%;
+  margin-left: 40px;
+  margin-bottom: 12px;
 }
 
 input:focus {
-  outline: 1px solid black;
+  outline: 1px solid var(--primary-color);
 }
 
 input::placeholder {
-  color: grey;
+  color: var(--secondary-color);
   font-size: 14px;
 }
 
-.header-hr {
-  margin-bottom: 0px;
-  margin-top: 10px;
-}
-
 .results-list {
-  padding-left: 25px;
-  margin-top: 130px;
+  padding: 0;
+  margin-top: 147px;
 }
 
 .category-container {
-  margin-bottom: 30px;
+  margin: 16px 40px 0px 40px;
+  background-color: var(--container-color);
+  padding: 6px;
+  border-radius: 10px;
 }
 
 .card {
-  background-color: white;
+  background-color: var(--primary-color);
   border-radius: 6px;
-  border: 2px solid gray;
+  border: 2px solid var(--secondary-color);
   display: inline-block;
   margin: 4px;
   padding: 2px;
@@ -92,6 +110,7 @@ input::placeholder {
   overflow-y: hidden;
   white-space: nowrap;
   max-height: 224px;
+  padding-bottom: 4px;
 }
 
 .card:hover {
@@ -113,17 +132,23 @@ input::placeholder {
 .card img {
   border-radius: 6px;
   margin: 4px;
-  max-height: 180px;
+  max-height: 160px;
   max-width: fit-content;
 }
 
 .category-name {
   animation-duration: 3s;
+  padding: 12px 0px 12px 16px;
+  margin: 1px 0 4px 0;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  background-color: var(--primary-color);
 }
 
 .app-footer {
-  /* background-color: blue;
-  height: 200px; */
+  /* background-color: rgb(185, 173, 173); */
+  height: 100px;
+  margin: 0;
 }
 
 .app-footer-content {
