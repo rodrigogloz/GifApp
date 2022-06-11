@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el <AddCategory/> debe de mostrarse correctamente 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <div
+    className="search-container"
+  >
+    <input
+      className="animate__animated animate__fadeIn"
+      onChange={[Function]}
+      placeholder="Buscar GIFs por categoría"
+      spellCheck="false"
+      type="text"
+      value=""
+    />
+  </div>
+</form>
+`;
