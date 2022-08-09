@@ -39,6 +39,12 @@ export const AddCategory = ({ setCategories }) => {
         </button>
       </form>
 
+      <select className="search-quantity">
+        <option value="1">10</option>
+        <option value="2">50</option>
+        <option value="3">100</option>
+      </select>
+
       <button className="reset-button" onClick={resetCategories}>
         <FontAwesomeIcon icon={faTrashCan}></FontAwesomeIcon>
       </button>

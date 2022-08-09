@@ -11,7 +11,6 @@ export const GifGrid = ({ category }) => {
   const onDelete = () => {
     setState({
       data: [],
-      loading: true,
     });
   };
 
