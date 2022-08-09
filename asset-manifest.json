@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/GifApp/static/css/main.bce6d842.css",
+    "main.js": "/GifApp/static/js/main.efdf9206.js",
+    "static/media/github-svgrepo-com .svg": "/GifApp/static/media/github-svgrepo-com .d45d58329852cdd58b06049a1b07d6a1.svg",
+    "static/media/delete-svgrepo-com.svg": "/GifApp/static/media/delete-svgrepo-com.c969cdd22ae05053557d8cd77f2029d1.svg",
+    "static/media/linkedin-svgrepo-com.svg": "/GifApp/static/media/linkedin-svgrepo-com.ed1324b34473e69c8b7366e0d8d5ee94.svg",
+    "index.html": "/GifApp/index.html",
+    "main.bce6d842.css.map": "/GifApp/static/css/main.bce6d842.css.map",
+    "main.efdf9206.js.map": "/GifApp/static/js/main.efdf9206.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bce6d842.css",
+    "static/js/main.efdf9206.js"
+  ]
+}
