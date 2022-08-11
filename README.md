@@ -6,3 +6,5 @@ request a la API de Giphy (https://developers.giphy.com/docs/api/) para traer re
 Mediante un control del estado, se han introducido lógicas para el reset
 de las búsquedas y la posibilidad de eliminar búsquedas específicas de
 la lista.
+
+Visitar proyecto en https://rodrigogloz.github.io/ToDo-App/
